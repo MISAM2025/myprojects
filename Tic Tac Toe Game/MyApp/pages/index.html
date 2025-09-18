@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../styles/css/main.min.css" />
+		<title>Tic Tac Toe Game</title>
+	</head>
+	<body>
+		<main class="flex__center-y flex__container flex__column">
+			<header class="flex__center-xy flex__container flex__row">
+				<h1 class="title">Tic Tac Toe</h1>
+			</header>
+			<div class="sidebar flex__center-xy flex__container flex__row">
+				<div class="player">
+					<h3>Player 1</h3>
+					<span class="player-one-score">0</span>
+				</div>
+				<div class="player">
+					<h3>Player 2</h3>
+					<span class="player-two-score">0</span>
+				</div>
+			</div>
+			<div class="flex__center-xy flex__column info">
+				<p class="game-state">Click to Start</p>
+				<div class="buttons">
+					<button class="start-button button-primary">Start</button>
+					<button class="new-game button-primary">New Game</button>
+				</div>
+			</div>
+			<div class="game-board"></div>
+		</main>
+		<script src="../scripts/app.js" type="module"></script>
+	</body>
+</html>

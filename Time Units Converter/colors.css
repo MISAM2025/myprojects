@@ -1,0 +1,66 @@
+/*! === === === Color library === === ===*/
+/*? This is a custom library */
+/*? that has the purpose of simplifying the selection of colors */
+/*? by naming hexadecimal colors in a more human-friendly way */
+
+:root {
+	/** === Shades of Black  === */
+	--black: #000;
+	--jet-black: #343434;
+
+	/** === Shades of Blue === */
+	--aqua: #00ffff;
+	--azure: #f0ffff;
+	--baby-blue: #89cff0;
+	--blue: #0000ff;
+	--bright-blue: #0096ff;
+	--navy-blue: #000080;
+	--midnight-blue: #191970;
+	--egyptian-blue: #1434a4;
+
+	/** === Shades of Gray ===*/
+	--ash-gray: #b2beb5;
+	--blue-gray: #7393b3;
+	--charcoal-gray: #36454f;
+	--glaucous-gray: #6082b6;
+	--silver: #c0c0c0;
+
+	/** === Shades of Green ===*/
+	--dark-green: #023030;
+	--aquamarine-green: #7fffd4;
+	--bright-green: #aaff00;
+	--emerald-green: #50c878;
+	--light-green: #90ee90;
+	--jungle-green: #2aaa8a;
+	--limegreen: limegreen;
+
+	/** === Shades of Orange ===*/
+	--amber-orange: #ffbf00;
+	--bright-orange: #ffac1c;
+	--bronze: #cd7f32;
+	--burnt-orange: #cc5500;
+	--dark-orange: #8b4000;
+	--neon-orange: #ff5f1f;
+
+	/** === Shades of Pink ===*/
+	--cerise-pink: #de3163;
+	--rose: #f33a6a;
+
+	/** === Shades of Purple ===*/
+	--dark-purple: #301934;
+	--purple: purple;
+	--light-violet: #cf9fff;
+	--violet: #7f00ff;
+
+	/** === Shades of Red ===*/
+	--blood-red: #880808;
+	--brick-red: #aa4a44;
+	--brigt-red: #ee4b2b;
+	--carmine-red: #d70040;
+	--crimson: #dc143c;
+	--neon-red: #ff3131;
+	--raspberry: #e30b5c;
+	--red: #ff0000;
+	--ruby-red: #e0115f;
+	--scarlet: #ff2400;
+}

@@ -1,0 +1,46 @@
+@import "var";
+* {
+	transition: all 0.5s ease-in-out;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+//!! Hand Gestures Animations ____________
+//!! _____________________________________
+@keyframes shake-left {
+	0% {
+		transform: translateY(0) rotate(-0deg);
+	}
+	50% {
+		transform: translateY(-50px) rotate(-30deg);
+	}
+	100% {
+		transform: translateY(50px) rotate(-0deg);
+	}
+}
+
+@keyframes shake-right {
+	0% {
+		transform: translateY(0) rotate(0deg);
+	}
+	50% {
+		transform: translateY(-50px) rotate(30deg);
+	}
+	100% {
+		transform: translateY(50px) rotate(0deg);
+	}
+}
+
+//* Player One Animation ____________________
+//* _________________________________________
+.shake-left {
+	animation: shake-left 0.7s 3 ease-in-out 0.2s;
+}
+
+//* Player Two Animation ____________________
+//* _________________________________________
+.shake-right {
+	animation: shake-right 0.7s 3 ease-in-out 0.2s;
+}

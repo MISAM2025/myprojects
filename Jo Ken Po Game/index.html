@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/css/main.min.css" />
+
+		<title>Jo Ken Po</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<h1>Jo Ken Po Game</h1>
+				<h2 class="round-el">
+					<span>Round:</span>
+					<span class="round">0</span>
+				</h2>
+			</header>
+			<div class="upper-container">
+				<div class="player1 player-div">
+					<img
+						src="imgs/assets/player1-rock.png"
+						class="player-img player1-img"
+						alt="rock Hand" />
+					<h2 class="player-name">You</h2>
+				</div>
+				<div class="player2 player-div">
+					<img
+						src="imgs/assets/player2-rock.png"
+						class="player-img player2-img"
+						alt="rock Hand" />
+					<h2 class="player-name">Computer</h2>
+				</div>
+			</div>
+			<div class="middle-container">
+				<h2 class="score-el">
+					<span class="player1-score">0</span>
+					<span class="player2-score">0</span>
+				</h2>
+				<p class="state">Select to continue</p>
+				<button class="restart">Start again</button>
+			</div>
+			<div class="lower-container select-div">
+				<img
+					src="imgs/assets/player1-paper.png"
+					class="select-btn paperBtn"
+					alt="paper Selector" />
+				<img
+					src="imgs/assets/player1-rock.png"
+					class="select-btn rockBtn"
+					alt="rock Selector" />
+				<img
+					src="imgs/assets/player1-scissors.png"
+					class="select-btn scissorsBtn"
+					alt="scissors Selecor" />
+			</div>
+		</main>
+
+		<script src="js/main.js"></script>
+	</body>
+</html>

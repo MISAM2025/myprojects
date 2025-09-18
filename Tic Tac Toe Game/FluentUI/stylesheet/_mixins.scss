@@ -1,0 +1,11 @@
+@mixin grid__wrapper($num_of_col, $column_width) {
+	display: grid;
+	grid-template-columns: repeat($num_of_col, $column_width);
+}
+
+@mixin resetStyle {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}

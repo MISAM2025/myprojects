@@ -1,0 +1,47 @@
+/* Reset */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #f9f9f9;
+	color: #202122;
+	line-height: 1.6;
+}
+
+/* Page layout */
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 0 1rem;
+	background: #fff;
+	border: 1px solid #a2a9b1;
+	border-radius: 4px;
+}
+
+/* Title */
+h1 {
+	font-size: 1.8rem;
+	border-bottom: 1px solid #a2a9b1;
+	padding-bottom: 0.3rem;
+	margin-bottom: 1rem;
+}
+
+/* List */
+ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+}
+
+li {
+	margin: 0.4rem 0;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+	color: #0645ad;
+}
+
+a:hover {
+	text-decoration: underline;
+}

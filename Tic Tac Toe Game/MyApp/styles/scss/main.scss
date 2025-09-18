@@ -1,0 +1,89 @@
+@import "../../../FluentUI/stylesheet/colors";
+@import "../../../FluentUI/stylesheet/mixins";
+@import "../../../FluentUI/stylesheet/classes";
+
+* {
+	@include resetStyle;
+	letter-spacing: 1px;
+	font-family: Fira Code, Poppins, monospace, sans-serif;
+	transition: all 0.1s ease-in-out;
+	text-transform: capitalize;
+}
+
+main {
+	width: 100%;
+	height: 100dvh;
+	background: $navy-blue;
+	color: $azure;
+}
+
+header {
+	width: 100%;
+	justify-content: center;
+
+	h1 {
+		background: linear-gradient($crimson, $violet);
+		background-clip: text;
+		color: transparent;
+	}
+}
+
+.sidebar {
+	width: 100%;
+	justify-content: space-around;
+
+	div {
+		text-align: center;
+
+		h3 {
+			font-size: 18px;
+		}
+	}
+}
+
+.info {
+	text-align: center;
+
+	.game-state {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+.button-primary {
+	width: 100px;
+	height: 40px;
+	margin: 20px 4px;
+	background-color: transparent;
+	color: $white;
+	font-weight: 700;
+	font-size: 12px;
+	outline: 2.5px solid $purple-blue;
+
+	&:active {
+		box-shadow: 4px 4px 4px $purple-blue;
+	}
+}
+
+.game-board {
+	@include grid__wrapper(3, 1fr);
+	width: min(400px, 75%);
+	height: 350px;
+	background-color: transparent;
+	align-items: center;
+	margin: 4px;
+	gap: 6px;
+
+	.button {
+		font-size: 25px;
+		background-color: transparent;
+		outline: 2px solid $purple-blue;
+		width: 100%;
+		height: 112px;
+
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+}

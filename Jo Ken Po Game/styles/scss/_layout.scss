@@ -1,0 +1,95 @@
+@import "var";
+body {
+	width: 100%;
+	height: 100vh;
+}
+
+.player-name {
+	font-size: $mid-font;
+}
+
+.lower-container {
+	img {
+		border: 2px solid $primary-color;
+	}
+}
+
+.player-img {
+	margin: 0 20px 40px 20px;
+}
+
+.player-div {
+	width: 100%;
+}
+
+//* Smallest breakpoint ______________
+//* __________________________________
+@media (min-width: 235px) {
+	.player-name {
+		font-size: $small-font;
+	}
+
+	header {
+		font-size: $small-font;
+	}
+
+	.player-img {
+		// width: 50%;
+		width: 75px;
+		height: 75px;
+	}
+
+	.lower-container {
+		img {
+			width: 15%;
+			height: 80px;
+		}
+
+		img {
+			padding: 5px;
+		}
+	}
+}
+
+//* Smartphone breakpoint ____________
+//* __________________________________
+@media (min-width: 330px) {
+	.player-name {
+		font-size: $mid-font;
+	}
+
+	.lower-container {
+		img {
+			width: 18%;
+			height: 100px;
+		}
+
+		img {
+			border: 2px solid $primary-color;
+			padding: 5px;
+		}
+	}
+}
+
+//* Tablet++ breakpoint _______________
+//*____________________________________
+@media (min-width: 565px) {
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	main {
+		max-width: 555px;
+	}
+
+	header {
+		font-size: $mid-font;
+	}
+
+	.player-img {
+		width: 125px;
+		height: 125px;
+	}
+}

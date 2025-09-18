@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="colors.css">
+  <title>Time Units Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Time Units Converter</h1>
+    <div class="input-container">
+      <input type="number" class="input-text" placeholder="Type here">
+      <select class="input-type fromUnit">
+        <option value="days">Days</option>
+        <option value="hours">Hours</option>
+        <option value="minutes">Minutes</option>
+        <option value="seconds">Seconds</option>
+      </select>
+    </div>
+    <div class="btn-container">
+      <button class="btn converter-btn">Convert to</button>
+      <select class="btn output-type">
+        <option value="days">Days</option>
+        <option value="hours">Hours</option>
+        <option value="minutes">Minutes</option>
+        <option value="seconds">Seconds</option>
+      </select>
+    </div>
+    <div class="txt-container">
+      <p class="result">0.00</p>
+      <p class="txt-display">Enter a unit, and I'll convert it to another</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
